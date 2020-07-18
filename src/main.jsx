@@ -11,6 +11,7 @@ import '../public/static/css/style.css';
 import AppComponent from './components/AppComponent.jsx';
 import HomeComponent from './components/HomeComponent.jsx';
 import MovieListComponent from './components/MovieListComponent.jsx';
+import FavouriteComponent from './components/FavouriteComponent.jsx';
 import MovieDetailComponent from './components/MovieDetailComponent.jsx';
 
 ReactDOM.render(
@@ -19,6 +20,7 @@ ReactDOM.render(
         <Route path="/" component={AppComponent}>
             <IndexRoute component={HomeComponent}/>
             <Route path="/movies" component={MovieListComponent}/>
+            <Route path="/favourite-movie" component={FavouriteComponent}/>
             <Route path="/detail/:imdbID" component={MovieDetailComponent}/>
         </Route>
     </Router>
