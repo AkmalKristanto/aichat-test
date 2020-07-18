@@ -1,0 +1,7 @@
+{
+  "name": "Movie Page",
+  "short_name": "Movie",
+  "lang": "en-US",
+  "start_url": "/",
+  "display": "standalone"
+}
